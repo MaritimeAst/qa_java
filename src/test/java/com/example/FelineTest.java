@@ -38,7 +38,7 @@ public class FelineTest {
         Feline feline = new Feline();
         List<String> actual = feline.eatMeat();
 
-        assertEquals(List.of("Рыба", "Животное", "Птица"), actual);
+        assertEquals(List.of("Животные", "Птицы", "Рыба"), actual);
     }
 
     @Test

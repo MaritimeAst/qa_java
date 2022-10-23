@@ -66,7 +66,7 @@ public class LionTest {
     public void lionGetFood() throws Exception {
         Feline feline = Mockito.mock(Feline.class);
         Lion lion = new Lion(feline, sexOption);
-        List<String> expected = List.of("Рыба", "Животное", "Птица");
+        List<String> expected = List.of("Животные", "Птицы", "Рыба");
         Mockito.when(feline.getFood("Хищник")).thenReturn(expected);
         List<String> actual = lion.getFood();
 
